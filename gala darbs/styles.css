@@ -1,0 +1,44 @@
+h1{
+    
+    text-align: center;
+    color: aliceblue;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #04AA6D;
+}
+#weather {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    background-color:darkgreen;
+    color: aliceblue;
+}
+
+.Link{
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    left: 0%;
+    margin-top:30%;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-radius:10px;
+
+
+}
+
+.poga{
+    color: white;
+
+}
