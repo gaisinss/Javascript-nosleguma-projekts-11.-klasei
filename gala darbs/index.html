@@ -2,32 +2,26 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>title</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <h1>The Weather App</h1>
+    <h3 id="greeting">Hi, </h3>
+    <h3 id="demo"></h3>
 
-    
-    
+    <div class="Link">
+        <a href="index1.html" class="Game">Game!</a>
+    </div>
 
-<h1>Current Weather in Riga</h1>
+    <div class="wheterinfo">
+        <div id="weather">Click the button to load weather data in Riga</div>
+    </div>
+    <br>
 
-<div id="weather">Click the button to load weather data for Latvia Riga</div>
-<br></br>
-<button onclick="fetchWeather()">Get Weather Info</button>
-
-
-
-
-
-
-<div class="Link">
-
-    <button onclick=""><a href="index1.html" target="_self">Game!</a></button> 
-    <button onClick="window.location.reload();" id="poga">Refresh Page</button>
-
-</div>
-    <script src="script.js"></script> 
+    <div class="load">
+        <button class="weather-button" onclick="fetchWeather()">Load</button>
+    </div>
 </body>
 </html>
-

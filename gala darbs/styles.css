@@ -1,44 +1,107 @@
-h1{
-    
-    text-align: center;
-    color: aliceblue;
-
-}
-
-
 body {
-    font-family: Arial, sans-serif;
+    background-color: #023020;
+    font-family: Lexend, sans-serif;
+
     text-align: center;
-    margin: 20px;
-    background-color: #04AA6D;
-}
-#weather {
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    display: inline-block;
-    background-color:darkgreen;
-    color: aliceblue;
+    color: #ffffff;
 }
 
-.Link{
-    text-align: right;
-    font-size: 16px;
+
+
+
+h1 {
+    font-size: 32px;
     font-weight: bold;
-    color: white;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    position:relative;
-    left: 0%;
-    margin-top:30%;
-    padding: 15px 32px;
-    cursor: pointer;
-    border-radius:10px;
-
-
+    padding-top: 60px;
 }
 
-.poga{
-    color: white;
 
+h3 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding-left: 60px;
+}
+
+
+
+.Link {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 60px;
+}
+
+.Game {
+    display: inline-block;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    text-decoration: none;
+    line-height: 50px;
+    margin: 10px;
+}
+
+
+.wheterinfo {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+
+
+
+
+.weather-button {
+    background-color: #04AA6D;
+    color: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.load {
+    text-align: center;
+}
+
+
+#hint, #result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+
+#guess input {
+    padding: 5px;
+    font-size: 1em;
+}
+
+#guess button {
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#result.correct {
+    color: green;
+}
+
+#result.wrong {
+    color: red;
 }
